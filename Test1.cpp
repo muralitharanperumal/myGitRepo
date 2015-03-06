@@ -41,6 +41,6 @@ int main()
     delete [] p;
     std::cout << A::m_copy_ctor_calls << A::m_dtor_calls << std::endl;
 
-    std::cout << "Code Done" << std::endl;
+    std::cout << "Code Completed" << std::endl;
     return 0;
 }
